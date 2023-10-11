@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heaviest birds-table</title>
+</head>
+
+<body>
+    <h1>heaviest birds</h1>
+    <table>
+        <thead> <!-- thead is table ka header shuru hua and khtm hua(this tag is basically for semantics) -->
+            <tr>
+                <th>Animal</th>
+                <th>avg mass</th>
+                <th>Max mass</th>
+                <th>flighty</th>
+            </tr>
+        </thead>
+        <!-- td- data dalne ke lie hota hai cells mein -->
+        <tbody> <!-- tbody is table ki body shuru hui and khtm hui(this tag is basically for semantics)-->
+            <tr>
+                <td>ostrich</td>
+                <td>104(200)</td>
+                <td>1028</td>
+                <td>NO</td>
+            </tr>
+            <!-- tr defines rows of a table  jab hm data ko rows ke andr enclose nai krte toh wo sbko ek hi row mein le leta 
+    hai mtlb sare data ke around apne aap hi browser tr lga deta hai -->
+            <tr>
+                <td>Somali ostrich</td>
+                <td>900(200)</td>
+                <td></td> <!--khali td daalne se ek khali cell bn jata hai table mein hi-->
+                <td>NO</td>
+
+            </tr>
+            <tr>
+                <td>wild turkey</td>
+                <td>10000</td>
+                <td>1230</td>
+                <td>NO</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!- ---------------------------------------------------------------------------------- ->
+        <h2>V2</h2>
+        <table>
+            <thead> <!-- thead is table ka header shuru hua and khtm hua(this tag is basically for semantics) -->
+                <tr>
+                    <th rowspan="2">Animal</th> <!-- rowspan means 2 rows mein bethega ye-->
+                    <th colspan="2">avg mass</th> <!-- rowspan means 2 rows mein bethega ye-->
+                    <th rowspan="2">flighty</th>
+                </tr>
+
+                <tr>
+                    <th>Kg</th>
+                    <th>pounds</th>
+                </tr>
+            </thead>
+            <!-- td- data dalne ke lie hota hai cells mein -->
+            <tbody> <!-- tbody is table ki body shuru hui and khtm hui(this tag is basically for semantics)-->
+                <tr>
+                    <td>ostrich</td>
+                    <td>104</td>
+                    <td>200</td>
+                    <td>NO</td>
+                </tr>
+                <!-- tr defines rows of a table  jab hm data ko rows ke andr enclose nai krte toh wo sbko ek hi row mein le leta 
+    hai mtlb sare data ke around apne aap hi browser tr lga deta hai -->
+                <tr>
+                    <td>Somali ostrich</td>
+                    <td>900</td>
+                    <td>200</td> <!--khali td daalne se ek khali cell bn jata hai table mein hi-->
+                    <td>NO</td>
+
+                </tr>
+                <tr>
+                    <td>wild turkey</td>
+                    <td>10000</td>
+                    <td>1230</td>
+                    <td>NO</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+</body>
+
+</html>
