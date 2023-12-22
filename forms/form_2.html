@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- for aur id use krne se label ka text aur input type apas mein link hota hai -->
+    <!-- aur ye sare inline elements hain isliye hmne hr ek label aur input ko ek paragraph tag mein dala hai -->
+    <button>I m a button</button><!--ye button toh form ke bahar hai toh ye click hoga sirf-->
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter username:</label>
+            <input type="text" placeholder="username" id="username">
+        </p>
+        <p>
+            <label for="password">Enter password:</label>
+            <input type="password" placeholder="password" id="password">
+        </p>
+        <p>
+            <label for="color">Enter color:</label>
+            <input type="color" id="color">
+        </p>
+        <p>
+            <!-- aise bhi link kr skte hain label ko input type se -->
+            <label>
+                Enter number:
+                <input type="number" placeholder="enter a number" id="number">
+            </label>
+        </p>
+        <button>submit</button><!--ye button submit ho jayega-->
+        <button type="button">submit</button> <!-- ye button submit nahi hoga sirf click hoga-->
+
+    </form>
+</body>
+
+</html>
