@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/birds">
+        <label for="meal">Please Select an Entree</label>
+        <select name="meal" id="meal">
+            <option value="">Please select an option</option>
+            <!--this is like a placeholder text(socho ab value wala feild khali hai toh ye option select krne pr kuch hoga toh hai nahi)-->
+
+            <option value="fish">fish</option>
+            <option value="veg" selected>vegtarian</option><!-- by default vegetarian selected rahega-->
+            <option value="steak">steak</option>
+
+        </select>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
+<!-- for and id are used to link label and dropdown together
+name "meal" is used taki url yu ban jaye meal=whatever
+value ke andar jo bhi data hoga wo whatever mein jayega
+malo fish ko select kia toh url:/birds/meal=fish 
+aur jo hr ek option ke andar ka data hai wo option ke 
+andr ke data ko represent kr rha hai -->

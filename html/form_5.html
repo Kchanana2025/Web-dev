@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>More inputs!!</h1>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree"
+            checked><!--by default checkboxes are unchecked but agar aap inme checked likhdo toh wo checked hote hain by default-->
+        <label for="agree">I agree to everything</label>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
+<!-- jo action mein daalte ho uss url pr jaate hain hm kisi bhi button pe click krke inside form 
+agar form filled hai toh wo filled data bhi sath mein jata hai nai toh akela hi url jata hai -->
+<!-- agar aap iss check box ko tick krke submit button pe click kia then url will be
+/birds/agree_tos=ON -->
