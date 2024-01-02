@@ -1,0 +1,28 @@
+.large {
+    font-size: larger;
+}
+
+.small {
+    font-size: small;
+}
+
+#button1 {
+    color: rgb(0, 38, 255);
+}
+
+#para {
+    background-color: beige;
+}
+
+/* Selects all elements */
+/* * {
+    color: green;
+} */
+
+a[href] {
+    color: purple;
+}
+
+p div {
+    color: rgb(245, 245, 33);
+}
